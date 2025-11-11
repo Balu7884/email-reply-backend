@@ -20,7 +20,8 @@ public class WebConfig {
                                 "chrome-extension://*",
                                 "http://localhost:5173",
                                 "http://localhost:3000",
-                                "https://email-reply-backend-zpnv.onrender.com"
+                                "https://email-reply-backend-zpnv.onrender.com",
+                                "https://email-reply-frontend.vercel.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
